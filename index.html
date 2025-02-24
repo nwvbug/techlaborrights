@@ -41,6 +41,8 @@
             justify-content: center;
             align-items: center;
             gap:20px;
+            flex-wrap: wrap;
+            min-height: fit-content;
         }
 
         .workersImage{
@@ -113,15 +115,24 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 4px #80231f;
+            box-sizing: border-box !important;
+
         }
 
+        @media (max-width: 700px) {
+            #pageList{
+                display:none !important; 
+            }
+            .homepageBox{
+            }
+        }
         
     </style>
 </head>
 <body>
     <div class="navBar">
         <h2 class="name" href="/index.html" style="cursor:pointer;">Tech Labor Rights</h2>
-        <div style="display:flex; gap:20px;">
+        <div style="display:flex; gap:20px;" id="pageList">
             <div class="link">Philosophical</div>
             <div class="link">Humanitarian</div>
             <div class="link">Contemporary</div>
@@ -174,7 +185,7 @@
     <div style="background-color: #80231f; padding-bottom:10px;">
         <div class="navBar">
             <h2 class="name">Tech Labor Rights</h2>
-            <div style="display:flex; gap:20px;">
+            <div style="display:flex; gap:20px;" id="pageList">
                 <div class="link">Philosophical</div>
                 <div class="link">Humanitarian</div>
                 <div class="link">Contemporary</div>
@@ -182,7 +193,7 @@
             </div>
         </div>
         <div style="text-align: center; color:white; font-size:15px;">
-            Nate Vemuri, Dang Hoang, Amrit Ladhar
+            Nate Vemuri, Dang Hoang, Amrit Ladhar. Source on <a href="https://github.com/nwvbug/techlaborrights">GitHub</a>
         </div>
     </div>
     
