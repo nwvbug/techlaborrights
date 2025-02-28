@@ -86,22 +86,17 @@
         }
         
 
-        @media (max-width: 700px) {
-            #pageList{
-                display:none !important; 
-            }
-            
-        }
+       
         
     </style>
 </head>
 <body>
     <div class="navBar">
-        <h2 class="name" href="/index.html" style="cursor:pointer;">Tech Labor Rights</h2>
+        <h2 class="name" href="/index.html" style="cursor:pointer;margin-bottom:20px;" onclick="window.location.href='/index.html'">Tech Labor Rights</h2>
         <div style="display:flex; gap:20px;" id="pageList">
             <div class="link">Philosophical</div>
             <div class="link">Humanitarian</div>
-            <div class="link">Contemporary</div>
+            <div class="link" onclick="window.location.href='/contemporary.html'" style="cursor:pointer;">Contemporary</div>
             <div class="link">The Prediction</div>
         </div>
     </div>
@@ -152,11 +147,11 @@
     </div>
     <div style="background-color: #80231f; padding-bottom:10px;">
         <div class="navBar">
-            <h2 class="name">Tech Labor Rights</h2>
+            <h2 class="name" onclick="window.location.href='/index.html'">Tech Labor Rights</h2>
             <div style="display:flex; gap:20px;" id="pageList">
                 <div class="link">Philosophical</div>
                 <div class="link">Humanitarian</div>
-                <div class="link">Contemporary</div>
+                <div class="link" onclick="window.location.href='/contemporary.html'" style="cursor:pointer;">Contemporary</div>
                 <div class="link">The Prediction</div>
             </div>
         </div>
