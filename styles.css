@@ -142,3 +142,22 @@ body {
 .centerButton:hover{
     transform: translateX(-50%) scale(1.05);
 }
+
+.titleButton{
+    background-color: #80231f;
+    color:white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 3px solid #80231f;
+    cursor: pointer;
+    transition:0.25s;
+    font-family: "Manrope", serif;
+    font-weight: 900;
+    font-size:25px;
+}
+
+.titleButton:hover{
+    background-color: white;
+    color:#80231f;
+    transform: scale(1.03);
+}
