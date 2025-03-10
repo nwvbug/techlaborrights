@@ -161,3 +161,11 @@ body {
     color:#80231f;
     transform: scale(1.03);
 }
+
+.copyright{
+    font-size:10px;
+    color:#333;
+    position:absolute;
+    bottom:0;
+    
+}
